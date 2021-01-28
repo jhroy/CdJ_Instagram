@@ -13,8 +13,8 @@ Le fichier [**mediasfrancoinstagram-public.csv**](mediasfrancoinstagram-public.c
 Le tableau ci-dessous présente la liste des médias examinés dans cette étude avec quelques métadonnées sur leurs publications.
 
 
-
 | Compte Instagram | Pays | Abonnés (au 31 août 2020) | Nombre de publications (2011-2020) | Somme des « J’aime » | Somme des commentaires | Somme des vues |
+|---|---|---|---|---|---|---|
 | FRANCE 24 | France | 1 346 479 | 6 045 | 4 360 312 | 100 563 | 18 286 023 |
 | Le Monde | France | 1 242 888 | 7 486 | 14 536 874 | 178 858 | 605 326 |
 | Radio France Internationale | France | 476 873 | 3 247 | 852 173 | 17 509 | 1 895 300 |
@@ -47,4 +47,5 @@ Le tableau ci-dessous présente la liste des médias examinés dans cette étude
 | LaLibre.be | Belgique | 16 805 | 2 024 | 102 789 | 2 224 | 164 665 |
 | Le Matin | Suisse | 14 813 | 701 | 46 880 | 1 138 | 1 273 |
 | Le Soleil de Québec | Canada | 13 772 | 3 491 | 597 313 | 18 196 | 20 447 |
+|---|---|---|---|---|---|---|
 |  |  | *6 522 971 | 82 902 | 44 215 977 | 856 507 | 72 626 472* |
