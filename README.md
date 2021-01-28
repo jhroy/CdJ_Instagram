@@ -47,4 +47,4 @@ Le tableau ci-dessous présente la liste des médias examinés dans cette étude
 | LaLibre.be | Belgique | 16 805 | 2 024 | 102 789 | 2 224 | 164 665 |
 | Le Matin | Suisse | 14 813 | 701 | 46 880 | 1 138 | 1 273 |
 | Le Soleil de Québec | Canada | 13 772 | 3 491 | 597 313 | 18 196 | 20 447 |
-|  |  | *6 522 971 | 82 902 | 44 215 977 | 856 507 | 72 626 472* |
+|  |  | *6 522 971* | *82 902* | *44 215 977* | *856 507* | *72 626 472* |
