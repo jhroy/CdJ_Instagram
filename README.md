@@ -12,7 +12,7 @@ Le fichier [**mediasfrancoinstagram-public.csv**](mediasfrancoinstagram-public.c
 
 Le tableau ci-dessous présente la liste des médias examinés dans cette étude avec quelques métadonnées sur leurs publications.
 
-+--+--+--+--+--+--+--+ |
++--+--+--+--+--+--+--+
 | Compte Instagram | Pays | Abonnés (au 31 août 2020) | Nombre de publications (2011-2020) | Somme des « J’aime » | Somme des commentaires | Somme des vues |
 +--+--+--+--+--+--+--+
 | FRANCE 24 | France | 1 346 479 | 6 045 | 4 360 312 | 100 563 | 18 286 023 |
