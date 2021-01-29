@@ -2,9 +2,9 @@
 
 ![Mosaïque de quelques-unes des images partagées par des médias francophones dans Instagram au cours de la deuxième décennie de ce siècle](images/INSTAGRAM-Illustration-18.jpg)
 
-Ce répertoire contient les fichiers et le code dont je me suis servi pour un article publié dans [*Les Cahiers du journalisme*](http://cahiersdujournalisme.org/) en 2021. Les articles des *Cahiers* sont revus par les pairs.
+Ce répertoire décrit avec plus de détails la méthodologie (avec fichiers et code) utilisée pour un article publié dans [*Les Cahiers du journalisme*](http://cahiersdujournalisme.org/) en 2021. Les articles des *Cahiers* sont revus par les pairs.
 
-### Collecte de données dans CrowdTangle
+### Étape 1 - Collecte de données dans CrowdTangle
 
 La première étape de la collecte de données à consisté à recueillir **toutes les publications Instagram** de 32 médias représentant un échantillon représentatif des principaux médias de l'espace francophone (France, Canada, Belgique, Suisse, Liban). Pour ce faire, j'ai utilisé [CrowdTangle](https://www.crowdtangle.com/), un outil de détection de contenu viral fourni par Facebook, à qui appartient Instagram. Il permet d'extraire des données historiques. Ainsi, toutes les publications Instagram de chacun des médias, dès lors qu'ils se sont mis à publier sur cette plateforme, si ces publications sont contenues dans CrowdTangle, ont été recueillies. La récolte a été effectuée début septembre 2020.
 
@@ -48,3 +48,7 @@ Le tableau ci-dessous présente la liste des médias examinés dans cette étude
 | Le Matin | Suisse | 14 813 | 701 | 46 880 | 1 138 | 1 273 |
 | Le Soleil de Québec | Canada | 13 772 | 3 491 | 597 313 | 18 196 | 20 447 |
 |  |  | *6 522 971* | *82 902* | *44 215 977* | *856 507* | *72 626 472* |
+
+### Étape 2 - Emojis, *hashtags*, mots et *n-grams*
+
+Une fois ce corpus constitué, le script [**instanalyse.py**](instanalyse.py) prend les champs textuels de chaque publication et crée cinq fichiers CSV, un pour regrouper tous les emojis contenus dans notre corpus, un autre pour les mots-clics, et les trois dernier (après [lemmatisation](https://fr.wikipedia.org/wiki/Lemmatisation)) pour les mots seuls, les bigrammes (paires de mots) et les trigrammes. Ces fichiers contiennent aussi, pour chaque élément lexical, la somme des interactions de la publication dans laquelle ils se retrouvent afin de faire une pondération de leur utilisation au lieu d'une simple somme de leurs occurrences.
