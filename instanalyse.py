@@ -141,5 +141,3 @@ for post in posts:
 	print("#"*40)
 	print("   >>> ", n, " <<<")
 	print("#"*40)
-
-# Au final, on a cinq fichier de
