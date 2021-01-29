@@ -51,4 +51,18 @@ Le tableau ci-dessous présente la liste des médias examinés dans cette étude
 
 ### Étape 2 - Emojis, *hashtags*, mots et *n-grams*
 
-Une fois ce corpus constitué, le script [**instanalyse.py**](instanalyse.py) prend les champs textuels de chaque publication et crée cinq fichiers CSV, un pour regrouper tous les emojis contenus dans notre corpus, un autre pour les mots-clics, et les trois dernier (après [lemmatisation](https://fr.wikipedia.org/wiki/Lemmatisation)) pour les mots seuls, les bigrammes (paires de mots) et les trigrammes. Ces fichiers contiennent aussi, pour chaque élément lexical, la somme des interactions de la publication dans laquelle ils se retrouvent afin de faire une pondération de leur utilisation au lieu d'une simple somme de leurs occurrences.
+Une fois ce corpus constitué, le script [**instanalyse.py**](instanalyse.py) prend les champs textuels de chaque publication et crée cinq fichiers CSV, un pour regrouper tous les emojis contenus dans notre corpus, un autre pour les mots-clics, et les trois dernier (après [lemmatisation](https://fr.wikipedia.org/wiki/Lemmatisation)) pour les mots seuls, les bigrammes (paires de mots) et les trigrammes:
+
+- [**insta-emojis.csv**](insta-emojis.csv)
+- [**insta-hastags.csv**](insta-hastags.csv)
+- insta-motsseuls.csv
+- insta-bigrammes.csv
+- insta-trigrammes.csv
+
+Ces fichiers contiennent aussi, pour chaque élément lexical, la somme des interactions de la publication dans laquelle ils se retrouvent afin de faire une pondération de leur utilisation au lieu d'une simple somme de leurs occurrences.
+
+Je ne partage que les deux premiers, car les trois derniers sont trop gros pour être téléversés dans github... et pour être traités dans LibreOffice!
+
+Avec les fichiers d'emojis et de mots-clics, il est donc possible de faire un tableau croisé et de calculer les interactions moyennes pour reproduire les figures publiées dans l'article. Voici l'exemple de la Figure 4 des 20 emojis ayant suscité le plus d’interactions par publication de notre corpus de médias francophones et se retrouvant dans 100 publications ou plus.
+
+![Les 20 emojis ayant suscité le plus d’interactions par publication](images/INSTAGRAM-Figure-04.png)
