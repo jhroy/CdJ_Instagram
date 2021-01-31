@@ -66,3 +66,5 @@ Je ne partage que les deux premiers, car les trois derniers sont trop gros pour 
 Avec les fichiers d'emojis et de mots-clics, il est donc possible de faire un tableau croisé et de calculer les interactions moyennes pour reproduire les figures publiées dans l'article. Voici l'exemple de la Figure 4 des 20 emojis ayant suscité le plus d’interactions par publication de notre corpus de médias francophones et se retrouvant dans 100 publications ou plus.
 
 ![Les 20 emojis ayant suscité le plus d’interactions par publication](images/INSTAGRAM-Figure-04.png)
+
+Les fichiers des mots seuls, des bigrammes et des trigrammes ont dû être traités à l'aide de [pandas](https://github.com/jhroy/tuto-pandas/), car ils comptent respectivement 3,2 millions, 3,1 millions et 3,0 millions de lignes chacun. Le carnet jupyter [**instableaux.ipynb**](instableaux.ipynb) montre qu'un tableau croisé a été effectué dans chacun pour calculer le nombre d'occurrences de chaque mot, bigramme et trigramme, et pour les pondérer avec le nombre d'interactions des publications dans lesquelles ils ont été utilisés.
