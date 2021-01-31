@@ -68,3 +68,8 @@ Avec les fichiers d'emojis et de mots-clics, il est donc possible de faire un ta
 ![Les 20 emojis ayant suscité le plus d’interactions par publication](images/INSTAGRAM-Figure-04.png)
 
 Les fichiers des mots seuls, des bigrammes et des trigrammes ont dû être traités à l'aide de [pandas](https://github.com/jhroy/tuto-pandas/), car ils comptent respectivement 3,2 millions, 3,1 millions et 3,0 millions de lignes chacun. Le carnet jupyter [**instableaux.ipynb**](instableaux.ipynb) montre qu'un tableau croisé a été effectué dans chacun pour calculer le nombre d'occurrences de chaque mot, bigramme et trigramme, et pour les pondérer avec le nombre d'interactions des publications dans lesquelles ils ont été utilisés.
+
+### Étape 3 - Analyse TF/IDF
+
+Afin de repérer les termes qui se sont démarqués dans le temps parmi les publications Instagram des 32 médias francophones sélectionnés, un analyse TF/IDF été effectuée. Il a d'abord fallu créer des fichier .txt contenant le texte de toutes les publications pour un mois donné. Cette opération a été effectuée par le script [**insta-parMois.py**](insta-parMois.py). Ce script créait 106 fichiers .txt (un pour chacun des mois contenant des publications Instagram au cours de la période étudiée mai 2011 à août 2020) que je n'ai pas reproduits dans ce répertoire (à part pour le fichier [**2020-08.txt**](2020-08.txt) qui couvre le dernier mois du corpus et que je fournis en guise d'exemple).
+
