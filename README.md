@@ -77,5 +77,9 @@ La première tâchait de voir quels mots étaient caractéristiques des publicat
 
 Pour chaque analyse, il s'agissait de créer des fichiers .txt contenant le texte de toutes les publications pour un média ou pour un mois donné. Dans le cas de l'analyse par mois, cette opération a été effectuée par le script [**insta-parMois.py**](insta-parMois.py). Ce script créait 106 fichiers .txt (un pour chacun des mois contenant des publications Instagram au cours de la période étudiée mai 2011 à août 2020). Tous les fichiers n'ont pas été reproduits ici, à part un seul ([**2020-08.txt**](2020-08.txt) qui couvre le dernier mois du corpus) fourni en guise d'exemple.
 
-L'analyse TF/IDF proprement dite a ensuite été effectuée dans un carnet jupyter [**tfidf.ipynb**](tfidf.ipynb) qui, de son côté, produisait 106 fichiers CSV (un pour chaque mois) contenant tous les mots du corpus avec, pour chaque mot, un score correspondant à son degré de spécificité pour le mois donné. Plus ce score est élevé, plus cela signifie que l'utilisation de ce mot est caractéristique des publications instagram de notre corpus pour ce mois.
+Les deux analyses TF/IDF proprement dites ont ensuite été effectuées dans un carnet jupyter [**tfidf.ipynb**](tfidf.ipynb) qui, de son côté, produisait 32 fichiers CSV pour l'analyse par média (un par média) et 106 fichiers CSV pour l'analyse par mois (un par mois). Chacun de ces fichiers contient tous les mots du corpus avec, pour chacun, un score correspondant à son degré de spécificité pour le média ou pour le mois donné. Plus ce score est élevé, plus cela signifie que l'utilisation de ce mot est caractéristique des publications instagram de notre corpus pour ce média ou pour ce mois.
+
+Les résultats de l'analyse par mois ont servi à produire la figure ci-dessous.
+
+![Analyse TF/IDF](images/INSTAGRAM-Figure-10.png)
 
