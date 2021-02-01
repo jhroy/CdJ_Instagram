@@ -83,3 +83,10 @@ Les résultats de l'analyse par mois ont servi à produire la figure ci-dessous.
 
 ![Analyse TF/IDF](images/INSTAGRAM-Figure-10.png)
 
+### Étape 4 - Analyse des images
+
+Une dernière analyse a été effectuéee sur 1% des images ayant suscité le plus d'interactions pour chacun des médias du corpus. Un total de 733 images ont été téléchargées manuellement (eh oui... cette opération était sans doute automatisable, mais je n'ai pas trouvé comment).
+
+Chaque image était analysée avec l'[API Computer Vision des Services cognitifs de Microsoft](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/). Pour l'image ci-dessous, tirée du [compte Instagram du Figaro](https://www.instagram.com/lefigarofr/), par exemple, l'API a retourné les renseignements se trouvant dans ce fichier: [**36887214_2965943723431332_5578156666228047872_n.json**](36887214_2965943723431332_5578156666228047872_n.json)
+
+![Image tirée du compte Instagram du Figaro](images/36887214_2965943723431332_5578156666228047872_n.jpg)
