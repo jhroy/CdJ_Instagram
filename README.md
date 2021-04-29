@@ -2,7 +2,7 @@
 
 ![Mosaïque de quelques-unes des images partagées par des médias francophones dans Instagram au cours de la deuxième décennie de ce siècle](images/INSTAGRAM-Illustration-18.jpg)
 
-Ce répertoire décrit avec plus de détails la méthodologie (avec fichiers et code) utilisée pour un article publié dans [*Les Cahiers du journalisme*](http://cahiersdujournalisme.org/) en 2021. Les articles des *Cahiers* sont revus par les pairs.
+Ce répertoire décrit avec plus de détails la méthodologie (avec fichiers et code) utilisée pour un article publié dans [*Les Cahiers du journalisme*](http://cahiersdujournalisme.org/) en 2021. Il s'agit d'une revue scientifique, avec comité de lecture. Les articles des *Cahiers* sont revus par les pairs. L'article que j'y ai publié s'insère dans un numéro spécial consacré au journalisme mobile, codirigé par [Nathalie Pignard-Cheynel](https://www.unine.ch/ajm/home/professeurs-collaborateurs/pignard-cheynel-nathalie.html), [Pascal Ricaud](https://www.univ-tours.fr/annuaire/m-pascal-ricaud) et [Lara Van Dievoet](https://uclouvain.be/fr/repertoires/lara.vandievoet). Il consiste en une analyse descriptive exploratoire des dix premières années d'utilisation d'[Instagram](https://www.instagram.com/) par les médias francophones.
 
 ### Étape 1 - Collecte de données dans CrowdTangle
 
