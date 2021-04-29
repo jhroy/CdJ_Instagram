@@ -79,7 +79,7 @@ Pour chaque analyse, il s'agissait de créer des fichiers .txt contenant le text
 
 Les deux analyses TF/IDF proprement dites ont ensuite été effectuées dans un carnet jupyter [**tfidf.ipynb**](tfidf.ipynb) qui, de son côté, produisait 32 fichiers CSV pour l'analyse par média (un par média) et 106 fichiers CSV pour l'analyse par mois (un par mois). Chacun de ces fichiers contient tous les mots du corpus avec, pour chacun, un score correspondant à son degré de spécificité pour le média ou pour le mois donné. Plus ce score est élevé, plus cela signifie que l'utilisation de ce mot est caractéristique des publications instagram de notre corpus pour ce média ou pour ce mois.
 
-Les résultats de l'analyse par mois ont servi à produire la figure ci-dessous.
+Les résultats de l'analyse par mois ont servi à produire la figure ci-dessous. Les termes représentés sont ceux dont le score TF/IDF a été le plus élevé pour chaque mois, en autant qu'il ne s'agisse pas d'un terme temporel (année ou nom du mois) ou d'un terme décrivant un des médias de l'échantillon (mediapart, tf1, etc.).
 
 ![Analyse TF/IDF](images/INSTAGRAM-Figure-10.png)
 
